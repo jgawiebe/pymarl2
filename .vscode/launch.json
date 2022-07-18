@@ -18,7 +18,7 @@
             "type": "python",
             "request": "launch",
             "program": "src\\main.py",
-            "args": ["--config=qmix", "--env-config=gymma", "with", "env_args.time_limit=500", "env_args.key='rware:rware-tiny-2ag-v1'", "t_max=2000"],
+            "args": ["--config=iql", "--env-config=gymma", "with", "env_args.time_limit=500", "env_args.key='rware:rware-tiny-2ag-v1'", "t_max=2000"],
             "console": "integratedTerminal",
             "justMyCode": true
         },

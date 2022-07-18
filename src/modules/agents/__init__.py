@@ -1,5 +1,6 @@
 REGISTRY = {}
 
+from modules.agents.rnn_ns_agent import RNNNSAgent
 from .rnn_agent import RNNAgent
 from .n_rnn_agent import NRNNAgent
 from .rnn_ppo_agent import RNNPPOAgent
@@ -10,6 +11,8 @@ from .mlp_agent import MLPAgent
 from .atten_rnn_agent import ATTRNNAgent
 from .noisy_agents import NoisyRNNAgent
 
+from .rnn_ns_agent import RNNNSAgent
+
 REGISTRY["rnn"] = RNNAgent
 REGISTRY["n_rnn"] = NRNNAgent
 REGISTRY["rnn_ppo"] = RNNPPOAgent
@@ -19,3 +22,5 @@ REGISTRY["central_rnn"] = CentralRNNAgent
 REGISTRY["mlp"] = MLPAgent
 REGISTRY["att_rnn"] = ATTRNNAgent
 REGISTRY["noisy_rnn"] = NoisyRNNAgent
+
+REGISTRY["ns_rnn"] = RNNNSAgent
